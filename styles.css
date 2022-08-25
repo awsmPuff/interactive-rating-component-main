@@ -1,0 +1,131 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    width: 46px;
+    height: 46px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(52, 63, 77);
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.rate, 
+.thank-you {
+    width: 350px;
+    height: 330px;
+    margin: 170px auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+/* RATE */
+.rate {
+    text-align: left;
+}
+
+.rate h1 {
+    margin: 33px auto 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+.nums {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nums button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.nums button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit {
+    width: 100%;
+    border-radius: 20px;
+    height: 43px;
+    margin-top: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* THANK YOU */
+.thank-you {
+    width: 345px;
+    padding: 30px;
+}
+.thank-you img {
+    margin: 20px auto;
+}
+
+.result {
+    border-radius: 20px;
+    background-color: hsl(213, 21%, 26%);
+    height: 20px;
+    width: 60%;
+    padding: 10px;
+    margin: 7px auto 20px;
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.thank-you h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+/* JAVASCRIPT */
+.hidden {
+    display: none;
+}
+
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 400px) {
+    body {
+        font-size: .8em;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: .9em;
+    }
+    .rate, 
+    .thank-you {
+        width: 70%;
+        height: 90%;
+    }
+    .submit {
+        height: 38px;
+    }
+    .result {
+        height: 15px;
+        padding: 12px auto 3px;
+    }
+}
