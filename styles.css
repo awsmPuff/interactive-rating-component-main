@@ -26,8 +26,10 @@ p {
 
 .rate, 
 .thank-you {
-    width: 350px;
-    height: 330px;
+    width: 70%;
+    max-width: 350px;
+    height: 90%;
+    max-height: 330px;
     margin: 175px auto;
     border-radius: 20px;
     padding: 30px;
@@ -79,7 +81,6 @@ p {
 
 /* THANK YOU */
 .thank-you {
-    width: 345px;
     padding: 30px;
 }
 .thank-you img {
@@ -116,11 +117,6 @@ p {
         width: 40px;
         height: 40px;
         font-size: .9em;
-    }
-    .rate, 
-    .thank-you {
-        width: 70%;
-        height: 90%;
     }
     .submit {
         height: 38px;
