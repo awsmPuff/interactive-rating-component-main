@@ -4,6 +4,7 @@ body {
     background-color: hsl(216, 12%, 8%);
     font-size: 15px;
     color: hsl(217, 12%, 63%);
+    overflow: hidden;
 }
 
 button {
